@@ -1,0 +1,7 @@
+{
+	
+    "require": {
+        "payapi/payapi-sdk-php": "^2.0",
+        "payapi/somepay-branding": "^1.0"
+    }
+}

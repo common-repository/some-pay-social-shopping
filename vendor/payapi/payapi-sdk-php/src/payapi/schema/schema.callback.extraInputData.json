@@ -1,0 +1,16 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170711"
+  },
+  "___schema" : {
+    "message": {
+      "___mandatory": false,
+      "___type": "string"
+    },
+    "tableNumber": {
+      "___mandatory": false,
+      "___type": "number"
+    }
+  }
+}

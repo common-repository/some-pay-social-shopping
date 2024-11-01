@@ -1,0 +1,32 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170717"
+  },
+  "___schema" : {
+    "currency": {
+      "___mandatory": true,
+      "___type": "string",
+      "____min": 3,
+      "____max": 3
+    },
+    "tosUrl": {
+      "___mandatory": false,
+      "___type": "url"
+    },
+    "preselectedPartialPayment": {
+      "___mandatory": false,
+      "___type": "string",
+      "____min": 1,
+      "____max": 250
+    },
+    "shippingHandlingFeeInCentsIncVat": {
+      "___mandatory": false,
+      "___type": "number"
+    },
+    "shippingHandlingFeeInCentsExcVat": {
+      "___mandatory": false,
+      "___type": "number"
+    }
+  }
+}

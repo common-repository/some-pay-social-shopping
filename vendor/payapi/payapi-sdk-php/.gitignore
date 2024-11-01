@@ -1,0 +1,7 @@
+src/sdk.php
+src/test.callback.php
+src/test.php
+src/payapi/cache/*
+src/payapi/debug/*
+*.log
+*.data

@@ -1,0 +1,27 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170711"
+  },
+  "___schema" : {
+    "consumerId": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 1
+    },
+    "email": {
+      "___mandatory": false,
+      "___type": "email"
+    },
+    "locale": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 5,
+      "___max": 5
+    },
+    "mobilePhoneNumber": {
+      "___mandatory": false,
+      "___type": "phone"
+    }
+  }
+}

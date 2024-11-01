@@ -1,0 +1,17 @@
+{
+  "partnerId": "somepay",
+  "partnerName": "SoMe Pay",
+  "partnerSlogan": "Sosiaalisen ostokokemuksen edelläkävijä",
+  "partnerLogoUrl": "https://media.internetcreatives.com/image/somepay/somepay-logo_black_wide-145x49.png",
+  "partnerIconUrl": "https://media.internetcreatives.com/image/somepay/somepay-favicon_black-64x64.png",
+  "partnerSupportInfoL1": "Ota yhteyttä ja saat SoMe Payn nopeasti toimintaan verkkokaupassasi",
+  "partnerSupportInfoL2": "",
+  "webshopBaseDomain": "multimerchantshop.com",
+  "partnerWebUrl": "https://somepay.fi",
+  "partnerContactEmail": "support@somepay.fi",
+  "partnerContactPhone": "010 80 40 40",
+  "updated_at": "20170928221400",
+  "created_at": "20170928221400",
+  "updatable": "1",
+  "enable": "1"
+}

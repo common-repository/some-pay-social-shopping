@@ -1,0 +1,23 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170711"
+  },
+  "___schema" : {
+    "debug": {
+      "___mandatory": false,
+      "___type": "boolean",
+      "___default": false
+    },
+    "staging": {
+      "___mandatory": false,
+      "___type": "boolean",
+      "___default": false
+    },
+    "plugin": {
+      "___mandatory": false,
+      "___type": "plugin",
+      "___default": "native"
+    }
+  }
+}

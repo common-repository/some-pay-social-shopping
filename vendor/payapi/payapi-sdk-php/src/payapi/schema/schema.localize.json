@@ -1,0 +1,54 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170710"
+  },
+  "___schema": {
+    "ip": {
+      "___mandatory": true,
+      "___type": "ip"
+    },
+    "countryCode": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 2,
+      "___max": 2
+    },
+    "countryName": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 2,
+      "___max": 250
+    },
+    "regionCode": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 2,
+      "___max": 3
+    },
+    "regionName": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 2,
+      "___max": 250
+    },
+    "postalCode": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 2,
+      "___max": 250
+    },
+    "timezone": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 2,
+      "___max": 250
+    },
+    "isp": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 2,
+      "___max": 250
+    }
+  }
+}

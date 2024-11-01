@@ -1,0 +1,28 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170717"
+  },
+  "___schema" : {
+    "order": {
+      "___mandatory": true,
+      "___type": "array"
+    },
+    "product": {
+      "___mandatory": true,
+      "___type": "array"
+    },
+    "consumer": {
+      "___mandatory": false,
+      "___type": "array"
+    },
+    "callbacks": {
+      "___mandatory": false,
+      "___type": "array"
+    },
+    "returnUrls": {
+      "___mandatory": false,
+      "___type": "array"
+    }
+  }
+}

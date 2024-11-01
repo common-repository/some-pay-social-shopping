@@ -1,0 +1,50 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170711"
+  },
+  "___schema" : {
+    "recipientName": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "co": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 0
+    },
+    "streetAddress": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "streetAddress2": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 0
+    },
+    "postalCode": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "city": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "stateOrProvince": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 0,
+      "___max": 250
+    },
+    "countryCode": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 2,
+      "___max": 2
+    }
+  }
+}

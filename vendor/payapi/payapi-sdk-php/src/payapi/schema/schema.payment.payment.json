@@ -1,0 +1,60 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170721"
+  },
+  "___schema" : {
+    "cardHolderEmail": {
+      "___mandatory": true,
+      "___type": "email"
+    },
+    "cardHolderName": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 2,
+      "___max": 500
+    },
+    "paymentMethod": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 2,
+      "___max": 100
+    },
+    "creditCardNumber": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 15,
+      "___max": 22
+    },
+    "ccv": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 2,
+      "___max": 5
+    },
+    "expiresMonth": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1,
+      "___max": 2
+    },
+    "expiresYear": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 4,
+      "___max": 4
+    },
+    "locale": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 5,
+      "___max": 5
+    },
+    "ip": {
+      "___mandatory": false,
+      "___type": "ip",
+      "___min": 5,
+      "___max": 5
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "___info": {
+    "___version": "0.0.2",
+    "___date": "20170719"
+  },
+  "___schema" : {
+    "success": {
+      "___mandatory": false,
+      "___type": "urlencoded"
+    },
+    "failed": {
+      "___mandatory": false,
+      "___type": "urlencoded"
+    },
+    "cancel": {
+      "___mandatory": false,
+      "___type": "urlencoded"
+    }
+  }
+}

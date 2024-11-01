@@ -1,0 +1,17 @@
+{
+  "partnerId": "nets",
+  "partnerName": "Nets",
+  "partnerSlogan": "Digital Payments Provider",
+  "partnerLogoUrl": "https://input.payapi.io/modules/core/img/partners/nets_logo_transparent.png",
+  "partnerIconUrl": "https://input.payapi.io/modules/core/img/partners/nets_icon.jpg",
+  "partnerSupportInfoL1": "For any support requests or help, please contact <strong>Nets</strong> support via <a href=\"http://www.nets.fi\">www.nets.fi</a>",
+  "partnerSupportInfoL2": "",
+  "webshopBaseDomain": "multimerchantshop.com",
+  "partnerWebUrl": "https://www.nets.eu/fi-fi/Pages/default.aspx",
+  "partnerContactEmail": "my@email.com",
+  "partnerContactPhone": "1234567890",
+  "updated_at": "20170405072713",
+  "created_at": "20161027132922",
+  "updatable": "1",
+  "enable": "1"
+}

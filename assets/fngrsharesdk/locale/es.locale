@@ -1,0 +1,11 @@
+{
+	"intro_again":"¡Hola de nuevo! Se ha habilitado la funcionalidad de compartir y pagar instantáneamente. Acceda con una pulsación prolongada.",
+	"intro_social": "¡Buenas! Desde este sitio se puede publicar a las redes sociales de forma fácil y rápida. Mantenga pulsado cualquier enlace, imagen u otro contenido y aparecerá la opción de compartir con sus amigos. Bastará con arrastrarlo al icono de la red social donde quiera publicarlo. ¡Facilísimo!",
+	"intro_full": "¡Buenas! Desde este sitio se puede publicar a las redes sociales de forma fácil y rápida, y también podrá hacer compras instantáneas. Mantenga pulsado cualquier producto para compartirlo en cuaqluier red social o comprarlo mediante la funcionalidad de pago instantáneo. ¡Facilísimo!",
+	"intro_step1": "Mantenga pulsado cualquier producto",
+	"intro_step2": "Arrástrelo para compartirlo o comprarlo", 
+	"instant_buy": "Compra instantánea", 
+	"add_to_cart": "Añadir al carrito",
+	"partial_payment" : "Pago a plazos",
+	"maintenance" : "Servicio en mantenimiento. Por favor, inténtelo más tarde"
+}

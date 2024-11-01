@@ -1,0 +1,50 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170720"
+  },
+  "___schema" : {
+    "currency": {
+      "___mandatory": true,
+      "___type": "string",
+      "____min": 3,
+      "____max": 3
+    },
+    "referenceId": {
+      "___mandatory": true,
+      "___type": "string",
+      "____min": 1,
+      "____max": 250
+    },
+    "tosUrl": {
+      "___mandatory": false,
+      "___type": "url"
+    },
+    "preselectedPartialPayment": {
+      "___mandatory": false,
+      "___type": "string",
+      "____min": 1,
+      "____max": 250
+    },
+    "sumInCentsIncVat": {
+      "___mandatory": true,
+      "___type": "number"
+    },
+    "sumInCentsExcVat": {
+      "___mandatory": true,
+      "___type": "number"
+    },
+    "vatInCents": {
+      "___mandatory": true,
+      "___type": "number"
+    },
+    "shippingHandlingFeeInCentsIncVat": {
+      "___mandatory": false,
+      "___type": "number"
+    },
+    "shippingHandlingFeeInCentsExcVat": {
+      "___mandatory": false,
+      "___type": "number"
+    }
+  }
+}

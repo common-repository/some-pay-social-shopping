@@ -1,0 +1,69 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170711"
+  },
+  "___schema" : {
+    "id": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 1
+    },
+    "quantity": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "title": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "description": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 0
+    },
+    "imageUrl": {
+      "___mandatory": false,
+      "___type": "url",
+      "___min": 1
+    },
+    "category": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "options": {
+      "___mandatory": false,
+      "___type": "array"
+    },
+    "model": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 1
+    },
+    "priceInCentsIncVat": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "priceInCentsExcVat": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "vatInCents": {
+      "___mandatory": true,
+      "___type": "number"
+    },
+    "vatPercentage": {
+      "___mandatory": true,
+      "___type": "number"
+    },
+    "model": {
+      "___mandatory": false,
+      "___type": "string"
+    }
+  }
+}

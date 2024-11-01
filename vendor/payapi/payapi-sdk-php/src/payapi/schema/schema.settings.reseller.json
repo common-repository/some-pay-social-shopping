@@ -1,0 +1,68 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170719"
+  },
+  "___schema": {
+    "partnerId": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1,
+      "___max": 150
+    },
+    "partnerName": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1,
+      "___max": 150
+    },
+    "partnerSlogan": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1,
+      "___max": 250
+    },
+    "partnerLogoUrl": {
+      "___mandatory": true,
+      "___type": "url"
+    },
+    "partnerIconUrl": {
+      "___mandatory": true,
+      "___type": "url"
+    },
+    "partnerSupportInfoL1": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1,
+      "___max": 500
+    },
+    "partnerSupportInfoL2": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 1,
+      "___max": 500
+    },
+    "webshopBaseDomain": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1,
+      "___max": 150
+    },
+    "partnerBackoffice": {
+      "___mandatory": false,
+      "___type": "url"
+    },
+    "partnerWebUrl": {
+      "___mandatory": true,
+      "___type": "url"
+    },
+    "partnerContactEmail": {
+      "___mandatory": true,
+      "___type": "email"
+    },
+    "partnerContactPhone": {
+      "___mandatory": false,
+      "___type": "string"
+    }
+  }
+}

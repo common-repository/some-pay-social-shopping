@@ -1,0 +1,75 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170720"
+  },
+  "___schema" : {
+    "id": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 1
+    },
+    "quantity": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "url": {
+      "___mandatory": false,
+      "___type": "urlencoded"
+    },
+    "title": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "description": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 0
+    },
+    "imageUrl": {
+      "___mandatory": false,
+      "___type": "urlencoded",
+      "___min": 1
+    },
+    "category": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 1
+    },
+    "options": {
+      "___mandatory": false,
+      "___type": "array"
+    },
+    "model": {
+      "___mandatory": false,
+      "___type": "string",
+      "___min": 1
+    },
+    "priceInCentsIncVat": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "priceInCentsExcVat": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "vatInCents": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "vatPercentage": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "extraData": {
+      "___mandatory": false,
+      "___type": "string"
+    }
+  }
+}

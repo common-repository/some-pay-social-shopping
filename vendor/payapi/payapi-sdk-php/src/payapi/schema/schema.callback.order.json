@@ -1,0 +1,38 @@
+{
+  "___info": {
+    "___version": "0.0.1",
+    "___date": "20170711"
+  },
+  "___schema" : {
+    "sumInCentsIncVat": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "sumInCentsExcVat": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "vatInCents": {
+      "___mandatory": true,
+      "___type": "number",
+      "___min": 1
+    },
+    "currency": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 3,
+      "___max": 3
+    },
+    "referenceId": {
+      "___mandatory": true,
+      "___type": "string",
+      "___min": 1
+    },
+    "tosUrl": {
+      "___mandatory": false,
+      "___type": "url"
+    }
+  }
+}

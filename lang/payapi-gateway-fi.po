@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayApi Online Secure Payment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-25 11:51+0000\n"
+"PO-Revision-Date: 2017-10-25 12:17+0000\n"
+"Last-Translator: Francisco Nieto <matti+woocommerce@payapi.io>\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/payapi-settings.php:30
+msgid "Enable Gateway"
+msgstr ""
+
+#: includes/payapi-settings.php:36 includes/payapi-settings.php:43
+msgid "Get your API credentials from your payments Backoffice."
+msgstr ""
+
+#: includes/payapi-settings.php:50
+msgid "Enable staging mode"
+msgstr ""
+
+#: includes/payapi-settings.php:56
+msgid "Enable Instant Buy"
+msgstr ""
+
+#: includes/payapi-settings.php:66
+msgid "jQuery Selector for product container in listings"
+msgstr ""
+
+#: includes/payapi-settings.php:71
+msgid "jQuery Selector for page container"
+msgstr ""
+
+#. Name of the plugin
+#: includes/Payapi_Gateway.php:22
+msgid "PayApi Online Secure Payment"
+msgstr ""
+
+#: includes/Payapi_Gateway.php:25
+msgid "Secure Online and Mobile Payments"
+msgstr ""
+
+#: includes/Payapi_Gateway.php:51
+#, php-format
+msgid ""
+"includes a new payment gateway for the checkout process through the Secure-"
+"Form. In order to use the payment gateway, please register for a free %suser "
+"account%s"
+msgstr ""
+
+#: templates/redirect.php:48
+msgid "Continue Shopping"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"PayApi Online Secure Payment includes a new payment gateway for the checkout "
+"process through the PayApi Secure-Form"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/payapi-online-secure-payment/"
+msgstr ""
+
+#. Author of the plugin
+msgid "PayApi"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://payapi.io"
+msgstr ""
+
+#: payapiGateway.php:55 payapiGateway.php:105 includes/product-page.php:24 
+#: includes/cart-page.php:13 includes/payapi-settings.php:54
+msgid "Instant Buy"
+msgstr "Osta heti"
+
+#: payapiGateway.php:109 payapiGateway.php:337 includes/product-page.php:23 
+#: includes/product-page.php:35 includes/cart-page.php:17
+msgid "Starting from ##/month"
+msgstr "Alkaen ##/kk"
+
+#: includes/Payapi_SecureFormGenerator.php:252
+msgid "Handling and Delivery"
+msgstr "Käsittely ja toimitus"
+
+#: includes/Payapi_Callback.php:93
+msgid "Items"
+msgstr "Items"
+
+#: includes/payapi-settings.php:28
+msgid "Enable/Disable"
+msgstr "Päällä / Pois"
+
+#: includes/payapi-settings.php:34
+msgid "Public Id"
+msgstr "Public Id"
+
+#: includes/payapi-settings.php:41
+msgid "Api Key"
+msgstr "Api Key"
+
+#: includes/payapi-settings.php:48
+msgid "Staging"
+msgstr "Staging"
+
+#: includes/payapi-settings.php:60
+msgid "Default shipping method for Instant Buy"
+msgstr "Oletus toimitustapa Osta heti -toiminnolle"
+
+#: templates/redirect.php:41
+msgid "Payment Cancelled"
+msgstr "Maksu peruutettu"
+
+#: templates/redirect.php:44
+msgid "Sorry, you cancelled the payment"
+msgstr "Pahoittelumme! Peruutit tilauksen"
+
+#: templates/redirect.php:45
+msgid ""
+"Your products are still on your shopping cart, if you do need any help do "
+"not hesitate to contact us."
+msgstr ""
+"Peruutit tilauksen, mutta voit jatkaa ostoksia ja tehda uusia tilauksia "
+"haluamallasi tavalla. Jos tarvitset apua, ole hyva ja ota meihin yhteytta."
